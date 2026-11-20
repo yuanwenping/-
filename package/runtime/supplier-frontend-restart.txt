@@ -1,0 +1,4 @@
+Frontend started: PID 6736, log /home/yuan/supplier-trace/backend/run/frontend.log
+http://127.0.0.1:5173/ 200 text/html 479
+http://127.0.0.1:5173/login 200 text/html 479
+http://127.0.0.1:5173/api/actuator/health ERROR HTTP Error 401: Unauthorized

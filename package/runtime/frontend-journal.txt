@@ -1,0 +1,61 @@
+[sudo] password for yuan: -- Logs begin at Thu 2026-10-22 08:27:46 PDT, end at Mon 2026-11-02 19:53:25 PST. --
+Nov 02 19:52:50 supplier-trace systemd[1]: Started Changde duck trace supplier frontend.
+Nov 02 19:52:50 supplier-trace bash[6916]: usage: gateway.py [-h] [--host HOST] [--port PORT] --static-dir STATIC_DIR
+Nov 02 19:52:50 supplier-trace bash[6916]:                   [--api-target API_TARGET]
+Nov 02 19:52:50 supplier-trace bash[6916]: gateway.py: error: argument --port: invalid int value: ''
+Nov 02 19:52:50 supplier-trace systemd[1]: supplier-trace-frontend.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 02 19:52:50 supplier-trace systemd[1]: supplier-trace-frontend.service: Failed with result 'exit-code'.
+Nov 02 19:52:55 supplier-trace systemd[1]: supplier-trace-frontend.service: Service hold-off time over, scheduling restart.
+Nov 02 19:52:55 supplier-trace systemd[1]: supplier-trace-frontend.service: Scheduled restart job, restart counter is at 5.
+Nov 02 19:52:55 supplier-trace systemd[1]: Stopped Changde duck trace supplier frontend.
+Nov 02 19:52:55 supplier-trace systemd[1]: Started Changde duck trace supplier frontend.
+Nov 02 19:52:55 supplier-trace bash[6919]: usage: gateway.py [-h] [--host HOST] [--port PORT] --static-dir STATIC_DIR
+Nov 02 19:52:55 supplier-trace bash[6919]:                   [--api-target API_TARGET]
+Nov 02 19:52:55 supplier-trace bash[6919]: gateway.py: error: argument --port: invalid int value: ''
+Nov 02 19:52:55 supplier-trace systemd[1]: supplier-trace-frontend.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 02 19:52:55 supplier-trace systemd[1]: supplier-trace-frontend.service: Failed with result 'exit-code'.
+Nov 02 19:53:00 supplier-trace systemd[1]: supplier-trace-frontend.service: Service hold-off time over, scheduling restart.
+Nov 02 19:53:00 supplier-trace systemd[1]: supplier-trace-frontend.service: Scheduled restart job, restart counter is at 6.
+Nov 02 19:53:00 supplier-trace systemd[1]: Stopped Changde duck trace supplier frontend.
+Nov 02 19:53:00 supplier-trace systemd[1]: Started Changde duck trace supplier frontend.
+Nov 02 19:53:00 supplier-trace bash[6922]: usage: gateway.py [-h] [--host HOST] [--port PORT] --static-dir STATIC_DIR
+Nov 02 19:53:00 supplier-trace bash[6922]:                   [--api-target API_TARGET]
+Nov 02 19:53:00 supplier-trace bash[6922]: gateway.py: error: argument --port: invalid int value: ''
+Nov 02 19:53:00 supplier-trace systemd[1]: supplier-trace-frontend.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 02 19:53:00 supplier-trace systemd[1]: supplier-trace-frontend.service: Failed with result 'exit-code'.
+Nov 02 19:53:06 supplier-trace systemd[1]: supplier-trace-frontend.service: Service hold-off time over, scheduling restart.
+Nov 02 19:53:06 supplier-trace systemd[1]: supplier-trace-frontend.service: Scheduled restart job, restart counter is at 7.
+Nov 02 19:53:06 supplier-trace systemd[1]: Stopped Changde duck trace supplier frontend.
+Nov 02 19:53:06 supplier-trace systemd[1]: Started Changde duck trace supplier frontend.
+Nov 02 19:53:06 supplier-trace bash[6931]: usage: gateway.py [-h] [--host HOST] [--port PORT] --static-dir STATIC_DIR
+Nov 02 19:53:06 supplier-trace bash[6931]:                   [--api-target API_TARGET]
+Nov 02 19:53:06 supplier-trace bash[6931]: gateway.py: error: argument --port: invalid int value: ''
+Nov 02 19:53:06 supplier-trace systemd[1]: supplier-trace-frontend.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 02 19:53:06 supplier-trace systemd[1]: supplier-trace-frontend.service: Failed with result 'exit-code'.
+Nov 02 19:53:11 supplier-trace systemd[1]: supplier-trace-frontend.service: Service hold-off time over, scheduling restart.
+Nov 02 19:53:11 supplier-trace systemd[1]: supplier-trace-frontend.service: Scheduled restart job, restart counter is at 8.
+Nov 02 19:53:11 supplier-trace systemd[1]: Stopped Changde duck trace supplier frontend.
+Nov 02 19:53:11 supplier-trace systemd[1]: Started Changde duck trace supplier frontend.
+Nov 02 19:53:11 supplier-trace bash[6934]: usage: gateway.py [-h] [--host HOST] [--port PORT] --static-dir STATIC_DIR
+Nov 02 19:53:11 supplier-trace bash[6934]:                   [--api-target API_TARGET]
+Nov 02 19:53:11 supplier-trace bash[6934]: gateway.py: error: argument --port: invalid int value: ''
+Nov 02 19:53:11 supplier-trace systemd[1]: supplier-trace-frontend.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 02 19:53:11 supplier-trace systemd[1]: supplier-trace-frontend.service: Failed with result 'exit-code'.
+Nov 02 19:53:16 supplier-trace systemd[1]: supplier-trace-frontend.service: Service hold-off time over, scheduling restart.
+Nov 02 19:53:16 supplier-trace systemd[1]: supplier-trace-frontend.service: Scheduled restart job, restart counter is at 9.
+Nov 02 19:53:16 supplier-trace systemd[1]: Stopped Changde duck trace supplier frontend.
+Nov 02 19:53:16 supplier-trace systemd[1]: Started Changde duck trace supplier frontend.
+Nov 02 19:53:16 supplier-trace bash[6937]: usage: gateway.py [-h] [--host HOST] [--port PORT] --static-dir STATIC_DIR
+Nov 02 19:53:16 supplier-trace bash[6937]:                   [--api-target API_TARGET]
+Nov 02 19:53:16 supplier-trace bash[6937]: gateway.py: error: argument --port: invalid int value: ''
+Nov 02 19:53:16 supplier-trace systemd[1]: supplier-trace-frontend.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 02 19:53:16 supplier-trace systemd[1]: supplier-trace-frontend.service: Failed with result 'exit-code'.
+Nov 02 19:53:21 supplier-trace systemd[1]: supplier-trace-frontend.service: Service hold-off time over, scheduling restart.
+Nov 02 19:53:21 supplier-trace systemd[1]: supplier-trace-frontend.service: Scheduled restart job, restart counter is at 10.
+Nov 02 19:53:21 supplier-trace systemd[1]: Stopped Changde duck trace supplier frontend.
+Nov 02 19:53:21 supplier-trace systemd[1]: Started Changde duck trace supplier frontend.
+Nov 02 19:53:21 supplier-trace bash[6940]: usage: gateway.py [-h] [--host HOST] [--port PORT] --static-dir STATIC_DIR
+Nov 02 19:53:21 supplier-trace bash[6940]:                   [--api-target API_TARGET]
+Nov 02 19:53:21 supplier-trace bash[6940]: gateway.py: error: argument --port: invalid int value: ''
+Nov 02 19:53:21 supplier-trace systemd[1]: supplier-trace-frontend.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 02 19:53:21 supplier-trace systemd[1]: supplier-trace-frontend.service: Failed with result 'exit-code'.

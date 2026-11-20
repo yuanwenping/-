@@ -1,0 +1,6 @@
+[sudo] password for yuan: ● supplier-trace-frontend.service - Changde duck trace supplier frontend
+   Loaded: loaded (/etc/systemd/system/supplier-trace-frontend.service; enabled; vendor preset: enabled)
+   Active: activating (auto-restart) (Result: exit-code) since Mon 2026-11-02 19:53:00 PST; 483ms ago
+  Process: 6922 ExecStart=/bin/bash -lc source /home/yuan/supplier-trace/config/supplier.env; exec /usr/bin/python3 /home/yuan/supplier-trace/frontend/gateway.py --host 0.0.0.0 --port "${FRONTEND_PORT}" --static-dir /home/yuan/supplier-trace/frontend/dist --api-target "http://127.0.0.1:${SERVER_PORT}" (code=exited, status=2)
+ Main PID: 6922 (code=exited, status=2)
+LOG

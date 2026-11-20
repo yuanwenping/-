@@ -1,0 +1,71 @@
+{
+  "name": "four-org-network",
+  "version": "1.0.0",
+  "client": {
+    "tlsEnable": true,
+    "adminCredential": {
+      "id": "exploreradmin",
+      "password": "exploreradminpw"
+    },
+    "enableAuthentication": false,
+    "organization": "SupplierMSP",
+    "connection": {
+      "timeout": {
+        "peer": {
+          "endorser": "300"
+        },
+        "orderer": "300"
+      }
+    }
+  },
+  "channels": {
+    "tracechannel": {
+      "peers": {
+        "peer0.supplier.example.com": {},
+        "peer0.processor.example.com": {},
+        "peer0.logistics.example.com": {},
+        "peer0.retailer.example.com": {}
+      }
+    }
+  },
+  "organizations": {
+    "SupplierMSP": {
+      "mspid": "SupplierMSP",
+      "adminPrivateKey": {
+        "path": "/tmp/crypto/peerOrganizations/supplier.example.com/users/Admin@supplier.example.com/msp/keystore/priv_sk"
+      },
+      "peers": [
+        "peer0.supplier.example.com"
+      ],
+      "signedCert": {
+        "path": "/tmp/crypto/peerOrganizations/supplier.example.com/users/Admin@supplier.example.com/msp/signcerts/Admin@supplier.example.com-cert.pem"
+      }
+    }
+  },
+  "peers": {
+    "peer0.supplier.example.com": {
+      "tlsCACerts": {
+        "path": "/tmp/crypto/peerOrganizations/supplier.example.com/peers/peer0.supplier.example.com/tls/ca.crt"
+      },
+      "url": "grpcs://peer0.supplier.example.com:7051"
+    },
+    "peer0.processor.example.com": {
+      "tlsCACerts": {
+        "path": "/tmp/crypto/peerOrganizations/processor.example.com/peers/peer0.processor.example.com/tls/ca.crt"
+      },
+      "url": "grpcs://peer0.processor.example.com:8051"
+    },
+    "peer0.logistics.example.com": {
+      "tlsCACerts": {
+        "path": "/tmp/crypto/peerOrganizations/logistics.example.com/peers/peer0.logistics.example.com/tls/ca.crt"
+      },
+      "url": "grpcs://peer0.logistics.example.com:9051"
+    },
+    "peer0.retailer.example.com": {
+      "tlsCACerts": {
+        "path": "/tmp/crypto/peerOrganizations/retailer.example.com/peers/peer0.retailer.example.com/tls/ca.crt"
+      },
+      "url": "grpcs://peer0.retailer.example.com:10051"
+    }
+  }
+}

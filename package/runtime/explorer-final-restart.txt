@@ -1,0 +1,133 @@
+explorer
+LOGS
+[32m[2026-11-07T04:32:38.254] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:32:38.279] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:32:38.280] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:32:38.286] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:32:38.287] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:32:38.292] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:32:38.292] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:32:38.292] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:32:38.298] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:32:38.300] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:32:38.303] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:32:38.303] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:32:38.303] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+
+> hyperledger-explorer@1.1.8 app-start /opt/explorer
+> ./start.sh
+
+************************************************************************************
+**************************** Hyperledger Explorer **********************************
+************************************************************************************
+[32m[2026-11-07T04:32:48.762] [INFO] PgService - [39mSSL to Postgresql disabled
+[32m[2026-11-07T04:32:48.763] [INFO] PgService - [39mconnecting to Postgresql postgres://hppoc:******@explorerdb:5432/fabricexplorer
+[32m[2026-11-07T04:32:48.794] [INFO] Platform - [39m network_config.id  test-network  network_config.profile  ./connection-profile/test-network.json
+[32m[2026-11-07T04:32:48.795] [INFO] Platform - [39mDisabled authentication
+[32m[2026-11-07T04:32:48.796] [INFO] FabricConfig - [39mconfig.client.tlsEnable  true
+[32m[2026-11-07T04:32:48.796] [INFO] FabricConfig - [39mFabricConfig, this.config.channels  tracechannel
+[32m[2026-11-07T04:32:49.010] [INFO] FabricUtils - [39mgenerateBlockHash 0
+[32m[2026-11-07T04:32:49.013] [INFO] Platform - [39minitializeListener, network_id, network_client  test-network {
+  name: 'test-network',
+  version: '1.0.0',
+  client: {
+    tlsEnable: true,
+    adminCredential: { id: 'exploreradmin', password: 'exploreradminpw' },
+    enableAuthentication: false,
+    organization: 'Org1MSP',
+    connection: { timeout: [Object] }
+  },
+  channels: { tracechannel: { peers: [Object] } },
+  organizations: {
+    Org1MSP: {
+      mspid: 'Org1MSP',
+      adminPrivateKey: [Object],
+      peers: [Array],
+      signedCert: [Object]
+    }
+  },
+  peers: {
+    'peer0.org1.example.com': {
+      tlsCACerts: [Object],
+      url: 'grpcs://peer0.org1.example.com:7051'
+    }
+  }
+}
+[32m[2026-11-07T04:32:49.023] [INFO] main - [39mPlease open web browser to access ：http://localhost:8080/
+[32m[2026-11-07T04:32:49.024] [INFO] main - [39mpid is 19
+[32m[2026-11-07T04:32:49.733] [INFO] PgService - [39mSSL to Postgresql disabled
+[32m[2026-11-07T04:32:49.733] [INFO] PgService - [39mconnecting to Postgresql postgres://hppoc:******@explorerdb:5432/fabricexplorer
+[32m[2026-11-07T04:32:49.759] [INFO] Synchronizer - [39minitialize : 60
+[32m[2026-11-07T04:32:49.759] [INFO] SyncPlatform - [39mSync process is started for the network = [test-network] and client = [Test Network]
+[32m[2026-11-07T04:32:49.760] [INFO] FabricConfig - [39mconfig.client.tlsEnable  true
+[32m[2026-11-07T04:32:49.761] [INFO] FabricConfig - [39mFabricConfig, this.config.channels  tracechannel
+[32m[2026-11-07T04:32:49.978] [INFO] FabricUtils - [39mgenerateBlockHash 0
+[32m[2026-11-07T04:32:49.980] [INFO] SyncPlatform - [39mUpdating the client network and other details to DB
+[32m[2026-11-07T04:32:49.985] [INFO] SyncServices - [39mSyncServices.synchNetworkConfigToDB client  test-network  channel_name  tracechannel
+[32m[2026-11-07T04:32:49.990] [INFO] FabricUtils - [39mgenerateBlockHash 0
+[32m[2026-11-07T04:32:50.058] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:32:50.062] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:32:50.063] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:32:50.063] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:32:50.068] [INFO] FabricGateway - [39mqueryInstantiatedChaincodes tracechannel
+[91m[2026-11-07T04:32:50.086] [ERROR] Sync - [39m<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+[91m[2026-11-07T04:32:50.086] [ERROR] Sync - [39mError: error in simulation: failed to execute transaction 42cd6466e493598109cfb9bcd90e67ba69627397286764afa59c538604d35ba8: could not launch chaincode lscc.syscc: error building chaincode: error building image: failed to get chaincode package for external build: could not get legacy chaincode package 'lscc.syscc': open /var/hyperledger/production/chaincodes/lscc.syscc: no such file or directory
+    at SingleQueryHandler.evaluate (/opt/explorer/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:41:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Transaction.evaluate (/opt/explorer/node_modules/fabric-network/lib/transaction.js:291:25) {
+  status: 500,
+  payload: { type: 'Buffer', data: [] },
+  isEndorsed: false
+}
+[32m[2026-11-07T04:32:50.087] [INFO] Sync - [39m<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+COUNTS
+blocks=0
+transactions=0

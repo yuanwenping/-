@@ -1,0 +1,270 @@
+blocks=0
+transactions=0
+BLOCK_LATEST
+SYNC_LOG
+[32m[2026-11-07T04:27:47.317] [INFO] UserService - [39muser.network  test-network
+[32m[2026-11-07T04:27:47.318] [INFO] UserService - [39mSkip authentication
+[32m[2026-11-07T04:27:47.744] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:47.779] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:47.780] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:47.791] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:47.794] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:27:47.800] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:27:47.800] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:27:47.800] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:27:47.803] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:47.806] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:27:47.812] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:27:47.814] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:27:47.814] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:27:50.080] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:50.099] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:50.099] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:50.104] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:50.106] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:27:50.112] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:27:50.112] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:27:50.112] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:27:50.123] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:27:50.126] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:27:50.129] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:27:50.130] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:27:50.130] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:28:50.987] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:28:50.996] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:28:50.999] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:28:51.006] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:28:51.006] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:28:51.006] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:28:51.036] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:28:51.038] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:28:51.043] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:28:51.043] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:28:51.043] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:29:35.321] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:29:35.449] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:29:35.450] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:29:35.456] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:29:35.459] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:29:35.463] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:29:35.464] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:29:35.464] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:29:35.471] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:29:35.472] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:29:35.477] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:29:35.477] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:29:35.477] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:30:35.981] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:30:35.993] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:30:35.995] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:30:36.000] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:30:36.001] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:30:36.001] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:30:36.035] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:30:36.036] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:30:36.040] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:30:36.040] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:30:36.041] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:31:35.970] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:31:35.977] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:31:35.979] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:31:35.985] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:31:35.985] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:31:35.986] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:31:36.029] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:31:36.031] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:31:36.035] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:31:36.035] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:31:36.035] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]

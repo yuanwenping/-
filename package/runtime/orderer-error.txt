@@ -1,0 +1,83 @@
+[sudo] password for yuan: 	General.Cluster.ReplicationPullTimeout = 5s
+	General.Cluster.ReplicationRetryTimeout = 5s
+	General.Cluster.ReplicationMaxRetries = 12
+	General.Cluster.ReplicationPolicy = "consensus"
+	General.Cluster.SendBufferSize = 100
+	General.Cluster.CertExpirationWarningThreshold = 168h0m0s
+	General.Cluster.TLSHandshakeTimeShift = 0s
+	General.Keepalive.ServerMinInterval = 1m0s
+	General.Keepalive.ServerInterval = 2h0m0s
+	General.Keepalive.ServerTimeout = 20s
+	General.Backoff.BaseDelay = 1s
+	General.Backoff.Multiplier = 1.6
+	General.Backoff.MaxDelay = 2m0s
+	General.ConnectionTimeout = 0s
+	General.GenesisMethod = "file"
+	General.GenesisFile = "/var/hyperledger/orderer/orderer.genesis.block"
+	General.BootstrapMethod = "file"
+	General.BootstrapFile = "/etc/hyperledger/fabric"
+	General.Profile.Enabled = false
+	General.Profile.Address = "0.0.0.0:6060"
+	General.LocalMSPDir = "/var/hyperledger/orderer/msp"
+	General.LocalMSPID = "OrdererMSP"
+	General.BCCSP.Default = "SW"
+	General.BCCSP.SW.Security = 256
+	General.BCCSP.SW.Hash = "SHA2"
+	General.BCCSP.SW.FileKeystore.KeyStorePath = ""
+	General.Authentication.TimeWindow = 15m0s
+	General.Authentication.NoExpirationChecks = false
+	General.MaxRecvMsgSize = 104857600
+	General.MaxSendMsgSize = 104857600
+	General.Throttling.Rate = 0
+	General.Throttling.InactivityTimeout = 5s
+	FileLedger.Location = "/var/hyperledger/production/orderer"
+	FileLedger.Prefix = ""
+	Debug.BroadcastTraceDir = ""
+	Debug.DeliverTraceDir = ""
+	Consensus = map[SnapDir:/var/hyperledger/production/orderer/etcdraft/snapshot WALDir:/var/hyperledger/production/orderer/etcdraft/wal]
+	Operations.ListenAddress = "orderer.example.com:9443"
+	Operations.TLS.Enabled = false
+	Operations.TLS.PrivateKey = ""
+	Operations.TLS.Certificate = ""
+	Operations.TLS.RootCAs = []
+	Operations.TLS.ClientAuthRequired = false
+	Operations.TLS.ClientRootCAs = []
+	Operations.TLS.TLSHandshakeTimeShift = 0s
+	Metrics.Provider = "disabled"
+	Metrics.Statsd.Network = "udp"
+	Metrics.Statsd.Address = "127.0.0.1:8125"
+	Metrics.Statsd.WriteInterval = 30s
+	Metrics.Statsd.Prefix = ""
+	ChannelParticipation.Enabled = true
+	ChannelParticipation.MaxRequestBodySize = 1048576
+	Admin.ListenAddress = "127.0.0.1:9443"
+	Admin.TLS.Enabled = false
+	Admin.TLS.PrivateKey = ""
+	Admin.TLS.Certificate = ""
+	Admin.TLS.RootCAs = []
+	Admin.TLS.ClientAuthRequired = true
+	Admin.TLS.ClientRootCAs = []
+	Admin.TLS.TLSHandshakeTimeShift = 0s
+[34m2026-11-07 01:57:00.662 UTC 0004 INFO[0m [orderer.common.server] [34;1minitializeServerConfig[0m -> Starting orderer with TLS enabled
+[34m2026-11-07 01:57:00.662 UTC 0005 INFO[0m [grpc] [34;1mAddTraceEvent[0m -> [core] [Server #1] Server created
+[35m2026-11-07 01:57:00.673 UTC 0006 PANI[0m [orderer.common.server] [35;1mMain[0m -> Bootstrap method: 'file' is forbidden, since system channel is no longer supported
+panic: Bootstrap method: 'file' is forbidden, since system channel is no longer supported
+
+goroutine 1 [running]:
+go.uber.org/zap/zapcore.CheckWriteAction.OnWrite(0x0?, 0x1f07260?, {0x0?, 0x0?, 0x35ddeebe5860?})
+	/vendor/go.uber.org/zap/zapcore/entry.go:196 +0x54
+go.uber.org/zap/zapcore.(*CheckedEntry).Write(0x35ddeef5a0e0, {0x0?, 0x35ddeec4e120?, 0x52?})
+	/vendor/go.uber.org/zap/zapcore/entry.go:290 +0x44a
+go.uber.org/zap.(*SugaredLogger).log(0x35ddeec02390, 0x4, {0x35ddeec4e120?, 0x113a1e0?}, {0x0?, 0x12b68a0?, 0x35ddeee25e01?}, {0x0, 0x0, 0x0})
+	/vendor/go.uber.org/zap/sugar.go:355 +0xec
+go.uber.org/zap.(*SugaredLogger).Panicf(...)
+	/vendor/go.uber.org/zap/sugar.go:229
+github.com/hyperledger/fabric-lib-go/common/flogging.(*FabricLogger).Panic(0x35ddeec02398, {0x35ddeef1fee0?, 0x1fd55c0?, 0x37b?})
+	/vendor/github.com/hyperledger/fabric-lib-go/common/flogging/zap.go:73 +0x57
+github.com/hyperledger/fabric/orderer/common/server.Main()
+	/orderer/common/server/main.go:119 +0x746
+main.main()
+	/cmd/orderer/main.go:15 +0xf
+PORTS
+PROFILE
+/home/yuan/explorer/connection-profile/test-network.json

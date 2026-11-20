@@ -1,0 +1,71 @@
+CONTAINERS
+[sudo] password for yuan: orderer.example.com|Exited (255) About an hour ago
+trace4-cli|Exited (255) About an hour ago
+peer0.logistics.example.com|Exited (255) About an hour ago
+peer0.retailer.example.com|Exited (255) About an hour ago
+peer0.processor.example.com|Exited (255) About an hour ago
+peer0.supplier.example.com|Exited (255) About an hour ago
+explorer|Exited (255) 4 days ago
+explorerdb|Exited (255) 4 days ago
+VOLUMES
+DRIVER    VOLUME NAME
+local     0b3c77cb170999fe761e6405dbacb0c5d68dc64d7c85886173b395c9866cc73f
+local     3dfc28fd6303041b24c7df45d5392245fda0db5c0deca11e80f81a7c80b604bd
+local     4f4c096927754ca812a74f1f1d0306062232c099fbd0c694d3fe7d4249f15879
+local     5a078b55d1567b44027a5e12b8898d21829407c037f9314b84b0f55cfdb288fa
+local     8a3e48cfd988b590ed6a4e14e22d613e27ea128a1b5b61aee417eb6bb274eb07
+local     9a388ee47606d8409944add50f4e8d69f754e07df1d32aeee82f395a26dccb63
+local     9b10f5cc6da788449d91a561ac13473a7f32f2b930eca25e556c452a51e56ac7
+local     9ec9a12e13f36098e5779627f1586cb0ffac34f3c463df0e3474632c1d8ac5c8
+local     42fa186a658d3f98e3fe876e86487cd8b24ae2e14bc64f3acb9f917fb251c2a5
+local     68dae430e6dd2e4cb56ec3305e01ccb92efa66d1927cc014c6874143bbf7b183
+local     562d2c7996143911089e7c10fa5c037c76291481e6a1506b28c9fd7b659352bc
+local     579b7eaf22825f228a953910d4134f6397230d98f7b02587235f020b6f619548
+local     802b8995acf79ead243324785e9884bc3d5bd59b65f922f6ea049b8bbe6a3de8
+local     5054ee09643bd2a2ed9b8a34d94bef1e63f022ce2d2161e51f65092801a017e3
+local     6173de68998451f2bb4de4a3af2f3f14b7723a351c3ebecb661314ac19c22b47
+local     8252e07a6708d23d1287d8a9dc838cdac6a50eaa1227241bed62aa01a2114e13
+local     8451dac26efd715416ce712374266d6c8191f1850e96e81a8db60c0b78c0f874
+local     34676742f6dca0c22b78a3e520f1a24681542f328746ae1236d291b95e8c64d3
+local     a3eaef786dc32639874aae78428431f595ca901c36ed3a5e225e9fd0aed8dcd5
+local     a032bde6963bf0ca56cbca43c1861b4cb795aa7f95c07b6b8a5af1b7e3efa099
+local     a1849f6db9293f1ed22b7db92a8afce2b9c836d85b9ba0bacbe09c620dc04f6f
+local     a527334852bd67989040181206efee22c9905a53ec2220ed095c383d03ad31a5
+local     aa38cab9f0647d290c0f09c5996755b01a537c3228c60f431e2187aa5da37f8b
+local     c0ed44e64bc75549bbbeb903537d6ee93625c59dd91a7dbefa00af09a66c2e0b
+local     c98afdf05bdf81ede68045cd3eef901bee013b40ab46a753b2c8a8f3d02ea52f
+local     d28f6d7968551f7136d4249c0e6c432404bdba902a00d3a39ade45d401c41aee
+local     d832909e4c644dc6476bbdfe3f1da60ceeaddba7a096ee4731972eab89aff24d
+local     e775de2643573c2a417ce181e446520b535b42cdaea0b6e4e14faa44f6de8878
+local     e8610241c632ec60e6e2329b2e6bb88c5ec47653c12a817f981d9adc68643791
+local     ed50d4d4b7c526c37f813b95735551928a2261d393cd9ca917a2d3344d6c931c
+local     edd20265348b017603c33d13a1002753de8d30dea429952684ab14f8a0ba461b
+local     efbf4169775e9c55a7491d531c315638a3a746091f5f5ecbf69a88c9401c71c8
+local     explorer_pgdata
+local     explorer_walletstore
+local     f1dc1727f5add4df134fdcb00d86e1fda0c6cfa7bf58d23bf69562cfec4ff1f0
+local     f681106525d1283948dbe86973c1cc617675e29341405ce548587069098b7436
+local     trace4_orderer.example.com
+local     trace4_peer0.logistics.example.com
+local     trace4_peer0.processor.example.com
+local     trace4_peer0.retailer.example.com
+local     trace4_peer0.supplier.example.com
+ORGS
+total 28
+drwxrwxr-x 4 yuan yuan 4096 Nov  6 17:49 .
+drwxrwxr-x 8 yuan yuan 4096 Nov  6 17:49 ..
+-rwxrwxr-x 1 yuan yuan 1655 Oct 22 09:29 ccp-generate.sh
+-rwxrwxr-x 1 yuan yuan 1276 Oct 22 09:29 ccp-template.json
+-rwxrwxr-x 1 yuan yuan  765 Oct 22 09:29 ccp-template.yaml
+drwxrwxr-x 2 yuan yuan 4096 Oct 22 09:29 cryptogen
+drwxrwxr-x 5 yuan yuan 4096 Oct 22 09:29 fabric-ca
+ARTIFACTS
+ls: cannot access '/home/yuan/fabric-samples/test-network/channel-artifacts': No such file or directory
+FOURORG
+total 24
+drwxr-xr-x 6 root root 4096 Nov  2 07:58 .
+drwxr-xr-x 4 root root 4096 Nov  2 07:58 ..
+drwxr-xr-x 7 root root 4096 Nov  2 07:58 logistics.example.com
+drwxr-xr-x 7 root root 4096 Nov  2 07:58 processor.example.com
+drwxr-xr-x 7 root root 4096 Nov  2 07:58 retailer.example.com
+drwxr-xr-x 7 root root 4096 Nov  2 07:58 supplier.example.com

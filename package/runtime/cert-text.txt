@@ -1,0 +1,41 @@
+subject=C = US, ST = California, L = San Francisco, OU = peer, CN = peer0.org1.example.com
+issuer=C = US, ST = California, L = San Francisco, O = org1.example.com, CN = ca.org1.example.com
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            07:65:e5:4f:10:a5:04:16:61:5b:0c:99:1c:d0:53:de
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C = US, ST = California, L = San Francisco, O = org1.example.com, CN = ca.org1.example.com
+        Validity
+            Not Before: Oct 31 15:49:00 2026 GMT
+            Not After : Oct 28 15:49:00 2036 GMT
+        Subject: C = US, ST = California, L = San Francisco, OU = peer, CN = peer0.org1.example.com
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:05:ce:02:91:bf:d0:1a:f9:aa:04:c7:66:6c:61:
+                    f3:d3:21:f2:6e:2a:83:72:24:7c:67:c1:8f:be:77:
+                    32:91:d2:69:f8:5b:b2:d9:3e:99:b4:ef:c4:6b:07:
+                    77:41:63:1f:8d:97:2b:4a:f5:0c:5e:2e:1c:98:89:
+                    bf:87:ff:e5:a8
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                keyid:CB:DF:D6:A9:DD:5B:48:8F:1D:38:19:1F:CD:70:01:2B:43:8D:6F:14:8D:A5:4A:88:A5:27:39:24:96:C1:00:3B
+
+    Signature Algorithm: ecdsa-with-SHA256
+         30:44:02:20:07:ce:f6:7c:98:29:d7:86:3c:2d:70:eb:c6:a3:
+         1a:27:7e:75:f2:5a:fb:3e:b2:c3:9f:61:d0:de:4d:61:84:b5:
+         02:20:2f:52:9e:b1:37:29:1b:c7:ec:87:d1:27:c2:a1:d6:d8:
+         3a:52:6f:97:99:dc:24:99:69:94:4d:b0:a8:4d:31:41
+subject=C = US, ST = California, L = San Francisco, CN = peer0.org1.example.com
+issuer=C = US, ST = California, L = San Francisco, O = org1.example.com, CN = tlsca.org1.example.com
+X509v3 Subject Alternative Name: 
+    DNS:peer0.org1.example.com, DNS:peer0, DNS:localhost

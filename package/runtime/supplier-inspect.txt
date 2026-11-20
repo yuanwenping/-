@@ -1,0 +1,21 @@
+ubuntu
+yuan
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    inet 192.168.116.145/24 brd 192.168.116.255 scope global dynamic noprefixroute ens33
+       valid_lft 1568sec preferred_lft 1568sec
+CONFIG
+---/etc/netplan/01-network-manager-all.yaml
+# Let NetworkManager manage all devices on this system
+network:
+  version: 2
+  renderer: NetworkManager
+SERVICES
+Failed to get unit file state for ssh.service: No such file or directory
+inactive
+JAVA_NODE
+/tmp/vmware-yuan_646-3070464234/vixScript0: line 1: java: command not found
+/tmp/vmware-yuan_646-3070464234/vixScript0: line 1: node: command not found
+/tmp/vmware-yuan_646-3070464234/vixScript0: line 1: npm: command not found

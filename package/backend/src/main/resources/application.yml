@@ -1,0 +1,72 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: changde-duck-trace
+  datasource:
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/changde_trace?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&useSSL=false}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:Yuan15347361610}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8
+      schema-locations: classpath:db/schema.sql
+      data-locations: classpath:db/data.sql
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 120MB
+  jackson:
+    time-zone: Asia/Shanghai
+    default-property-inclusion: non_null
+
+app:
+  jwt-secret: ${JWT_SECRET:ChangdeDuckTrace2027SecretMustBeAtLeast32BytesLong}
+  jwt-expire-hours: 12
+  node-org-code: ${NODE_ORG_CODE:}
+  upload-dir: ${UPLOAD_DIR:./uploads}
+  cors-origin: ${CORS_ORIGIN:http://localhost:5173,http://127.0.0.1:5173,http://192.168.13.1:5173,http://192.168.116.145:5173}
+  bootstrap-admin:
+    username: ${BOOTSTRAP_ADMIN_USERNAME:admin}
+    password: ${BOOTSTRAP_ADMIN_PASSWORD:12345678}
+
+fabric:
+  enabled: ${FABRIC_ENABLED:true}
+  channel: ${FABRIC_CHANNEL:tracechannel}
+  chaincode: ${FABRIC_CHAINCODE:tracecc}
+  endpoint-supplier: ${FABRIC_SUPPLIER_ENDPOINT:grpcs://192.168.116.144:7051}
+  endpoint-processor: ${FABRIC_PROCESSOR_ENDPOINT:grpcs://192.168.116.144:8051}
+  endpoint-logistics: ${FABRIC_LOGISTICS_ENDPOINT:grpcs://192.168.116.144:9051}
+  endpoint-retailer: ${FABRIC_RETAILER_ENDPOINT:grpcs://192.168.116.144:10051}
+  endpoint-orderer: ${FABRIC_ORDERER_ENDPOINT:grpcs://192.168.116.144:7050}
+  msp-supplier: ${FABRIC_MSP_SUPPLIER:SupplierMSP}
+  msp-processor: ${FABRIC_MSP_PROCESSOR:ProcessorMSP}
+  msp-logistics: ${FABRIC_MSP_LOGISTICS:LogisticsMSP}
+  msp-retailer: ${FABRIC_MSP_RETAILER:RetailerMSP}
+  authority-supplier: ${FABRIC_SUPPLIER_AUTHORITY:peer0.supplier.example.com}
+  authority-processor: ${FABRIC_PROCESSOR_AUTHORITY:peer0.processor.example.com}
+  authority-logistics: ${FABRIC_LOGISTICS_AUTHORITY:peer0.logistics.example.com}
+  authority-retailer: ${FABRIC_RETAILER_AUTHORITY:peer0.retailer.example.com}
+  authority-orderer: ${FABRIC_ORDERER_AUTHORITY:orderer.example.com}
+  supplier-cert: ${FABRIC_SUPPLIER_CERT:classpath:fabric/supplier/cert.pem}
+  supplier-key: ${FABRIC_SUPPLIER_KEY:classpath:fabric/supplier/key.pem}
+  supplier-tls: ${FABRIC_SUPPLIER_TLS:classpath:fabric/supplier/tls-ca.pem}
+  processor-cert: ${FABRIC_PROCESSOR_CERT:classpath:fabric/processor/cert.pem}
+  processor-key: ${FABRIC_PROCESSOR_KEY:classpath:fabric/processor/key.pem}
+  processor-tls: ${FABRIC_PROCESSOR_TLS:classpath:fabric/processor/tls-ca.pem}
+  logistics-cert: ${FABRIC_LOGISTICS_CERT:classpath:fabric/logistics/cert.pem}
+  logistics-key: ${FABRIC_LOGISTICS_KEY:classpath:fabric/logistics/key.pem}
+  logistics-tls: ${FABRIC_LOGISTICS_TLS:classpath:fabric/logistics/tls-ca.pem}
+  retailer-cert: ${FABRIC_RETAILER_CERT:classpath:fabric/retailer/cert.pem}
+  retailer-key: ${FABRIC_RETAILER_KEY:classpath:fabric/retailer/key.pem}
+  retailer-tls: ${FABRIC_RETAILER_TLS:classpath:fabric/retailer/tls-ca.pem}
+  orderer-tls: ${FABRIC_ORDERER_TLS:classpath:fabric/orderer-tls-ca.pem}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

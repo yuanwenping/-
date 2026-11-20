@@ -1,0 +1,9 @@
+                      Local time: Tue 2026-11-03 11:56:49 CST
+                  Universal time: Tue 2026-11-03 03:56:49 UTC
+                        RTC time: Tue 2026-11-03 03:56:50
+                       Time zone: Asia/Shanghai (CST, +0800)
+       System clock synchronized: yes
+systemd-timesyncd.service active: yes
+                 RTC in local TZ: no
+enabled
+enabled

@@ -1,0 +1,8 @@
+BACKEND
+active
+FRONTEND
+activating
+HTTP
+http://127.0.0.1:8080/actuator/health 200 application/vnd.spring-boot.actuator.v3+json
+http://127.0.0.1:5173/ ERROR <urlopen error [Errno 111] Connection refused>
+http://127.0.0.1:5173/login ERROR <urlopen error [Errno 111] Connection refused>

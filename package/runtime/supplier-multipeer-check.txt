@@ -1,0 +1,2 @@
+login 200 SUP003 张三
+chain 200 {"channel":"tracechannel","chaincode":"tracecc","identity":"SUPPLIER","state":"CONNECTED"}

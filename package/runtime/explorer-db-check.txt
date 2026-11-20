@@ -1,0 +1,20 @@
+              List of relations
+ Schema |        Name        | Type  | Owner 
+--------+--------------------+-------+-------
+ public | blocks             | table | hppoc
+ public | chaincodes         | table | hppoc
+ public | channel            | table | hppoc
+ public | orderer            | table | hppoc
+ public | peer               | table | hppoc
+ public | peer_ref_chaincode | table | hppoc
+ public | peer_ref_channel   | table | hppoc
+ public | transactions       | table | hppoc
+ public | users              | table | hppoc
+ public | write_lock         | table | hppoc
+(10 rows)
+
+ transactions 
+--------------
+            0
+(1 row)
+

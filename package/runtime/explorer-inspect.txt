@@ -1,0 +1,28 @@
+cli|Up About a minute|
+dev-peer0.org1.example.com-tracecc_1.0-90cec83f3f4cb04004ac9c6d83dbf31d80c1104579628a8d0f20ba00a54336e5|Up About a minute|
+dev-peer0.org2.example.com-tracecc_1.0-90cec83f3f4cb04004ac9c6d83dbf31d80c1104579628a8d0f20ba00a54336e5|Up About a minute|
+peer0.org2.example.com|Up About a minute|0.0.0.0:9051->9051/tcp, :::9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp, :::9445->9445/tcp
+peer0.org1.example.com|Up About a minute|0.0.0.0:7051->7051/tcp, :::7051->7051/tcp, 0.0.0.0:9444->9444/tcp, :::9444->9444/tcp
+orderer.example.com|Exited (2) About a minute ago|
+trace4-orderer.example.com|Exited (255) About an hour ago|0.0.0.0:7050->7050/tcp, :::7050->7050/tcp
+trace4-cli|Exited (255) About an hour ago|
+peer0.logistics.example.com|Exited (255) About an hour ago|7051/tcp, 0.0.0.0:9051->9051/tcp, :::9051->9051/tcp
+peer0.retailer.example.com|Exited (255) About an hour ago|7051/tcp, 0.0.0.0:10051->10051/tcp, :::10051->10051/tcp
+peer0.processor.example.com|Exited (255) About an hour ago|7051/tcp, 0.0.0.0:8051->8051/tcp, :::8051->8051/tcp
+peer0.supplier.example.com|Exited (255) About an hour ago|0.0.0.0:7051->7051/tcp, :::7051->7051/tcp
+explorer|Exited (255) 4 days ago|0.0.0.0:8080->8080/tcp, :::8080->8080/tcp
+explorerdb|Exited (255) 4 days ago|5432/tcp
+COMPOSE
+/home/yuan/fabric-four-peers/docker/docker-compose.yaml
+/home/yuan/fabric-samples/interest_rate_swaps/network/docker-compose.yaml
+/home/yuan/fabric-samples/test-network/docker/docker-compose-couch.yaml
+/home/yuan/fabric-samples/test-network/docker/docker-compose-ca.yaml
+/home/yuan/fabric-samples/test-network/docker/docker-compose-test-net.yaml
+/home/yuan/fabric-samples/test-network/addOrg3/docker/docker-compose-org3.yaml
+/home/yuan/fabric-samples/test-network/addOrg3/docker/docker-compose-ca-org3.yaml
+/home/yuan/fabric-samples/test-network/addOrg3/docker/docker-compose-couch-org3.yaml
+/home/yuan/fabric-samples/off_chain_data/config.json
+/home/yuan/explorer/docker-compose.yaml
+/home/yuan/explorer/config.json
+INSPECT
+[{"Type":"bind","Source":"/home/yuan/explorer/config.json","Destination":"/opt/explorer/app/platform/fabric/config.json","Mode":"rw","RW":true,"Propagation":"rprivate"},{"Type":"bind","Source":"/home/yuan/explorer/connection-profile","Destination":"/opt/explorer/app/platform/fabric/connection-profile","Mode":"rw","RW":true,"Propagation":"rprivate"},{"Type":"volume","Name":"explorer_walletstore","Source":"/var/lib/docker/volumes/explorer_walletstore/_data","Destination":"/opt/explorer/wallet","Driver":"local","Mode":"rw","RW":true,"Propagation":""},{"Type":"bind","Source":"/home/yuan/fabric-samples/test-network/organizations","Destination":"/tmp/crypto","Mode":"rw","RW":true,"Propagation":"rprivate"}]

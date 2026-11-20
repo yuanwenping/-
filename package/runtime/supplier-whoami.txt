@@ -1,0 +1,9 @@
+yuan
+ubuntu
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    inet 192.168.116.145/24 brd 192.168.116.255 scope global dynamic noprefixroute ens33
+       valid_lft 1586sec preferred_lft 1586sec
+inactive

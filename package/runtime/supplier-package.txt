@@ -1,0 +1,22 @@
+total 28
+drwxr-xr-x 6 yuan yuan 4096 Nov  2 08:05 .
+drwxr-xr-x 3 yuan yuan 4096 Nov  2 08:05 ..
+drwxr-xr-x 5 yuan yuan 4096 Nov  2 08:05 backend
+drwxr-xr-x 2 yuan yuan 4096 Nov  2 08:05 config
+drwxr-xr-x 3 yuan yuan 4096 Nov  2 08:05 frontend
+-rw-r--r-- 1 yuan yuan  938 Nov  2 07:55 README.md
+drwxr-xr-x 2 yuan yuan 4096 Nov  2 07:55 scripts
+/home/yuan/supplier-trace/scripts/stop-all.sh 366
+/home/yuan/supplier-trace/scripts/start-frontend.sh 684
+/home/yuan/supplier-trace/scripts/start-all.sh 204
+/home/yuan/supplier-trace/scripts/status.sh 459
+/home/yuan/supplier-trace/scripts/start-backend.sh 611
+/home/yuan/supplier-trace/README.md 938
+/home/yuan/supplier-trace/frontend/dist/index.html 479
+/home/yuan/supplier-trace/frontend/gateway.py 3802
+/home/yuan/supplier-trace/backend/trace-backend-1.0.0.jar 77899355
+/home/yuan/supplier-trace/backend/certs/supplier-cert.pem 826
+/home/yuan/supplier-trace/backend/certs/orderer-tls-ca.pem 843
+/home/yuan/supplier-trace/backend/certs/supplier-tls-ca.pem 895
+/home/yuan/supplier-trace/backend/certs/supplier-key.pem 241
+/home/yuan/supplier-trace/config/supplier.env 1341

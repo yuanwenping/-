@@ -1,0 +1,18 @@
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com -> 
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp -> 
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/cacerts -> 
+-rw-r--r-- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem -> 
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/keystore -> 
+-rw------- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/keystore/priv_sk -> 
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/tlscacerts -> 
+-rw-r--r-- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/tlscacerts/tlsca.org1.example.com-cert.pem -> 
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/admincerts -> 
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/signcerts -> 
+-rw-r--r-- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/signcerts/peer0.org1.example.com-cert.pem -> 
+-rw-r--r-- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/msp/config.yaml -> 
+drwxr-xr-x yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls -> 
+-rw-r--r-- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt -> 
+-rw-r--r-- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt -> 
+-rw------- yuan yuan /home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key -> 
+IMAGES
+hyperledger/fabric-peer:2.2.15

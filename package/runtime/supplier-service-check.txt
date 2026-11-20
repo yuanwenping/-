@@ -1,0 +1,5 @@
+active
+active
+http://127.0.0.1:8080/actuator/health 200 application/vnd.spring-boot.actuator.v3+json
+http://127.0.0.1:5173/ 200 text/html
+http://127.0.0.1:5173/login 200 text/html

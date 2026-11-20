@@ -1,0 +1,8 @@
+orderer.example.com
+peer0.org1.example.com
+peer0.org2.example.com
+dev-peer0.org2.example.com-tracecc_1.1-7a85ed12e9f6b97432bdf9efa532b24c8d5b4f2f5d31a7c953c14cd089245874|Up 4 seconds|
+dev-peer0.org1.example.com-tracecc_1.1-7a85ed12e9f6b97432bdf9efa532b24c8d5b4f2f5d31a7c953c14cd089245874|Up 4 seconds|
+peer0.org1.example.com|Up 5 seconds|0.0.0.0:7051->7051/tcp, :::7051->7051/tcp, 0.0.0.0:9444->9444/tcp, :::9444->9444/tcp
+orderer.example.com|Up 6 seconds|0.0.0.0:7050->7050/tcp, :::7050->7050/tcp, 0.0.0.0:9443->9443/tcp, :::9443->9443/tcp
+peer0.org2.example.com|Up 5 seconds|0.0.0.0:9051->9051/tcp, :::9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp, :::9445->9445/tcp

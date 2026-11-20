@@ -1,0 +1,81 @@
+ubuntu
+yuan
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    inet 192.168.116.144/24 brd 192.168.116.255 scope global dynamic noprefixroute ens33
+       valid_lft 1546sec preferred_lft 1546sec
+3: br-d19096092709: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    inet 172.19.0.1/16 brd 172.19.255.255 scope global br-d19096092709
+       valid_lft forever preferred_lft forever
+4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default 
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+DOCKER
+dev-peer0.org2.example.com-tracecc_1.1-7a85ed12e9f6b97432bdf9efa532b24c8d5b4f2f5d31a7c953c14cd089245874|Exited (255) 4 minutes ago|
+dev-peer0.org1.example.com-tracecc_1.1-7a85ed12e9f6b97432bdf9efa532b24c8d5b4f2f5d31a7c953c14cd089245874|Exited (255) 4 minutes ago|
+explorer|Exited (255) 4 minutes ago|0.0.0.0:8080->8080/tcp, :::8080->8080/tcp
+explorerdb|Exited (255) 4 minutes ago|5432/tcp
+cli|Exited (255) 4 minutes ago|
+peer0.org1.example.com|Exited (255) 4 minutes ago|0.0.0.0:7051->7051/tcp, :::7051->7051/tcp, 0.0.0.0:9444->9444/tcp, :::9444->9444/tcp
+orderer.example.com|Exited (255) 4 minutes ago|0.0.0.0:7050->7050/tcp, :::7050->7050/tcp, 0.0.0.0:9443->9443/tcp, :::9443->9443/tcp
+peer0.org2.example.com|Exited (255) 4 minutes ago|0.0.0.0:9051->9051/tcp, :::9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp, :::9445->9445/tcp
+NETWORK
+total 2772
+drwxrwxr-x  9 yuan yuan    4096 Oct 31 09:13 .
+drwxrwxr-x 26 yuan yuan    4096 Oct 22 09:31 ..
+drwxrwxr-x  4 yuan yuan    4096 Oct 22 09:29 addOrg3
+drwxr-xr-x  2 yuan yuan    4096 Oct 31 08:54 channel-artifacts
+drwxrwxr-x  2 yuan yuan    4096 Oct 22 09:29 configtx
+drwxrwxr-x  2 yuan yuan    4096 Oct 22 09:38 docker
+-rw-rw-r--  1 yuan yuan     344 Oct 22 09:29 .gitignore
+-rw-r--r--  1 yuan yuan     202 Oct 31 09:14 log.txt
+-rwxrwxr-x  1 yuan yuan   18612 Oct 22 09:29 network.sh
+drwxrwxr-x  6 yuan yuan    4096 Oct 31 08:54 organizations
+-rw-rw-r--  1 yuan yuan     787 Oct 22 09:29 README.md
+drwxrwxr-x  3 yuan yuan    4096 Oct 22 09:29 scripts
+drwxrwxr-x  2 yuan yuan    4096 Oct 31 08:54 system-genesis-block
+-rw-------  1 yuan yuan 2766233 Oct 31 09:13 tracecc.tar.gz
+CRYPTO
+/home/yuan/fabric-samples/test-network/organizations/cryptogen/crypto-config-orderer.yaml
+/home/yuan/fabric-samples/test-network/organizations/cryptogen/crypto-config-org2.yaml
+/home/yuan/fabric-samples/test-network/organizations/cryptogen/crypto-config-org1.yaml
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/msp/cacerts/ca.org1.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/msp/tlscacerts/tlsca.org1.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/msp/config.yaml
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/tlsca/priv_sk
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.yaml
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/ca/priv_sk
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/ca/ca.org1.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/msp/cacerts/ca.org2.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/msp/tlscacerts/tlsca.org2.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/msp/config.yaml
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/connection-org2.yaml
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/tlsca/tlsca.org2.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/tlsca/priv_sk
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/connection-org2.json
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/ca/ca.org2.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/ca/priv_sk
+/home/yuan/fabric-samples/test-network/organizations/ccp-generate.sh
+/home/yuan/fabric-samples/test-network/organizations/ordererOrganizations/example.com/msp/cacerts/ca.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/ordererOrganizations/example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/ordererOrganizations/example.com/msp/config.yaml
+/home/yuan/fabric-samples/test-network/organizations/ordererOrganizations/example.com/tlsca/priv_sk
+/home/yuan/fabric-samples/test-network/organizations/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/ordererOrganizations/example.com/ca/priv_sk
+/home/yuan/fabric-samples/test-network/organizations/ordererOrganizations/example.com/ca/ca.example.com-cert.pem
+/home/yuan/fabric-samples/test-network/organizations/ccp-template.yaml
+/home/yuan/fabric-samples/test-network/organizations/fabric-ca/registerEnroll.sh
+/home/yuan/fabric-samples/test-network/organizations/fabric-ca/org2/fabric-ca-server-config.yaml
+/home/yuan/fabric-samples/test-network/organizations/fabric-ca/org1/fabric-ca-server-config.yaml
+/home/yuan/fabric-samples/test-network/organizations/fabric-ca/ordererOrg/fabric-ca-server-config.yaml
+/home/yuan/fabric-samples/test-network/organizations/ccp-template.json
+CHAINCODE
+/home/yuan/chaincode/tracecc/vendor/modules.txt
+/home/yuan/chaincode/tracecc/go.mod
+/home/yuan/chaincode/tracecc/contract.go
+/home/yuan/chaincode/tracecc/main.go
+/home/yuan/chaincode/tracecc/go.sum

@@ -1,0 +1,1 @@
+/home/yuan/fabric-four-peers/organizations/peerOrganizations/supplier.example.com/users/User1@supplier.example.com/msp/keystore/priv_sk

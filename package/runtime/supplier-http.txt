@@ -1,0 +1,3 @@
+http://127.0.0.1:8080/actuator/health 200 application/vnd.spring-boot.actuator.v3+json
+http://127.0.0.1:5173/ ERROR Remote end closed connection without response
+http://127.0.0.1:5173/login ERROR Remote end closed connection without response

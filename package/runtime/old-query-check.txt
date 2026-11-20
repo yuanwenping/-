@@ -1,0 +1,9 @@
+Error: error getting endorser client for query: endorser client failed to connect to 0.0.0.0:7051: failed to create new connection: connection error: desc = "transport: error while dialing: dial tcp 0.0.0.0:7051: connect: connection refused"
+STATUS:1
+explorer|Up 45 seconds
+explorerdb|Up 55 seconds (healthy)
+orderer.example.com|Up About a minute
+dev-peer0.org1.example.com-tracecc_1.0-90cec83f3f4cb04004ac9c6d83dbf31d80c1104579628a8d0f20ba00a54336e5|Up 4 minutes
+dev-peer0.org2.example.com-tracecc_1.0-90cec83f3f4cb04004ac9c6d83dbf31d80c1104579628a8d0f20ba00a54336e5|Up 4 minutes
+peer0.org2.example.com|Up 4 minutes
+peer0.org1.example.com|Up 4 minutes

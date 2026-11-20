@@ -1,0 +1,36 @@
+Backend started: PID 6613, log /home/yuan/supplier-trace/backend/run/backend.log
+Frontend started: PID 6646, log /home/yuan/supplier-trace/backend/run/frontend.log
+Supplier node: http://192.168.116.145:5173
+Supplier IP: 192.168.116.145
+backend: RUNNING PID 6613
+frontend: RUNNING PID 6646
+Backend health:
+{"status":"UP"}
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-11-02T19:48:02.458-08:00  INFO 6613 --- [changde-duck-trace] [           main] com.changde.trace.TraceApplication       : Starting TraceApplication v1.0.0 using Java 17.0.7 with PID 6613 (/home/yuan/supplier-trace/backend/trace-backend-1.0.0.jar started by yuan in /home/yuan/supplier-trace/backend)
+2026-11-02T19:48:02.480-08:00  INFO 6613 --- [changde-duck-trace] [           main] com.changde.trace.TraceApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-11-02T19:48:04.629-08:00  INFO 6613 --- [changde-duck-trace] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-02T19:48:04.644-08:00  INFO 6613 --- [changde-duck-trace] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-02T19:48:04.644-08:00  INFO 6613 --- [changde-duck-trace] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-11-02T19:48:04.686-08:00  INFO 6613 --- [changde-duck-trace] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-02T19:48:04.688-08:00  INFO 6613 --- [changde-duck-trace] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2090 ms
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+2026-11-02T19:48:04.915-08:00  INFO 6613 --- [changde-duck-trace] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-02T19:48:10.249-08:00  INFO 6613 --- [changde-duck-trace] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54247647
+2026-11-02T19:48:10.251-08:00  INFO 6613 --- [changde-duck-trace] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-02T19:48:11.270-08:00  INFO 6613 --- [changde-duck-trace] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-11-02T19:48:11.787-08:00  INFO 6613 --- [changde-duck-trace] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-02T19:48:11.802-08:00  INFO 6613 --- [changde-duck-trace] [           main] com.changde.trace.TraceApplication       : Started TraceApplication in 10.064 seconds (process running for 11.017)
+2026-11-02T19:48:20.871-08:00  INFO 6613 --- [changde-duck-trace] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-02T19:48:20.871-08:00  INFO 6613 --- [changde-duck-trace] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-02T19:48:20.872-08:00  INFO 6613 --- [changde-duck-trace] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

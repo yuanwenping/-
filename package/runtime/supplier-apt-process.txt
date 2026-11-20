@@ -1,0 +1,6 @@
+root        854      1  0 07:40 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       1106      1  0 07:40 ?        00:00:00 /bin/sh /usr/lib/apt/apt.systemd.daily update
+root       1119   1106  0 07:40 ?        00:00:00 /bin/sh /usr/lib/apt/apt.systemd.daily lock_is_held update
+root       1888   1119 13 07:40 ?        00:03:22 /usr/bin/python3 /usr/bin/unattended-upgrade --download-only
+_apt       1927   1888  0 07:43 ?        00:00:00 /usr/lib/apt/methods/http
+_apt       1928   1888  0 07:43 ?        00:00:03 /usr/lib/apt/methods/http

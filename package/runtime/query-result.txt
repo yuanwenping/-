@@ -1,0 +1,44 @@
+Error: endorsement failure during query. response: status:500 message:"batch __healthcheck__ does not exist" 
+STATUS:1
+explorer
+EXPLORER_LOG
+[32m[2026-11-07T02:02:39.389] [INFO] PgService - [39mconnecting to Postgresql postgres://hppoc:******@explorerdb:5432/fabricexplorer
+[32m[2026-11-07T02:02:39.407] [INFO] Synchronizer - [39minitialize : 60
+[32m[2026-11-07T02:02:39.407] [INFO] SyncPlatform - [39mSync process is started for the network = [test-network] and client = [Test Network]
+[32m[2026-11-07T02:02:39.408] [INFO] FabricConfig - [39mconfig.client.tlsEnable  true
+[32m[2026-11-07T02:02:39.408] [INFO] FabricConfig - [39mFabricConfig, this.config.channels  tracechannel
+[32m[2026-11-07T02:02:39.606] [INFO] FabricUtils - [39mgenerateBlockHash 0
+[32m[2026-11-07T02:02:39.607] [INFO] SyncPlatform - [39mUpdating the client network and other details to DB
+[32m[2026-11-07T02:02:39.613] [INFO] SyncServices - [39mSyncServices.synchNetworkConfigToDB client  test-network  channel_name  tracechannel
+[32m[2026-11-07T02:02:39.618] [INFO] FabricUtils - [39mgenerateBlockHash 0
+[32m[2026-11-07T02:02:39.685] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T02:02:39.689] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T02:02:39.690] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: { low: 6, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T02:02:39.690] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: { low: 6, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T02:02:39.694] [INFO] FabricGateway - [39mqueryInstantiatedChaincodes tracechannel
+[91m[2026-11-07T02:02:39.699] [ERROR] Sync - [39m<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+[91m[2026-11-07T02:02:39.700] [ERROR] Sync - [39mError: error in simulation: failed to execute transaction 845ad9e7c0342d93bd8ece03eabf5f789a7ab08e7ca17b8c051a08d5061a8f6f: could not launch chaincode lscc.syscc: error building chaincode: error building image: failed to get chaincode package for external build: could not get legacy chaincode package 'lscc.syscc': open /var/hyperledger/production/chaincodes/lscc.syscc: no such file or directory
+    at SingleQueryHandler.evaluate (/opt/explorer/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:41:57)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Transaction.evaluate (/opt/explorer/node_modules/fabric-network/lib/transaction.js:291:25) {
+  status: 500,
+  payload: { type: 'Buffer', data: [] },
+  isEndorsed: false
+}
+[32m[2026-11-07T02:02:39.700] [INFO] Sync - [39m<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>

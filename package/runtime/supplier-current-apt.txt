@@ -1,0 +1,14 @@
+root        854      1  0 19:12 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root       1106      1  0 19:12 ?        00:00:00 /bin/sh /usr/lib/apt/apt.systemd.daily update
+root       1119   1106  0 19:12 ?        00:00:00 /bin/sh /usr/lib/apt/apt.systemd.daily lock_is_held update
+root       1888   1119 12 19:13 ?        00:03:22 /usr/bin/python3 /usr/bin/unattended-upgrade --download-only
+_apt       1927   1888  0 19:16 ?        00:00:00 /usr/lib/apt/methods/http
+_apt       1928   1888  0 19:16 ?        00:00:03 /usr/lib/apt/methods/http
+NETWORK
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    inet 192.168.116.145/24 brd 192.168.116.255 scope global noprefixroute ens33
+       valid_lft forever preferred_lft forever
+JAVA
+/tmp/vmware-yuan_646-3070464234/vixScript0: line 5: java: command not found
+SSH
+inactive

@@ -1,0 +1,40 @@
+[sudo] password for yuan: dev-peer0.org2.example.com-tracecc_1.0-90cec83f3f4cb04004ac9c6d83dbf31d80c1104579628a8d0f20ba00a54336e5|Up 2 hours|
+dev-peer0.org1.example.com-tracecc_1.0-90cec83f3f4cb04004ac9c6d83dbf31d80c1104579628a8d0f20ba00a54336e5|Up 2 hours|
+explorer|Up 2 hours|0.0.0.0:8080->8080/tcp, :::8080->8080/tcp
+explorerdb|Up 3 hours (healthy)|5432/tcp
+orderer.example.com|Up 3 hours|0.0.0.0:7050->7050/tcp, :::7050->7050/tcp, 0.0.0.0:9443->9443/tcp, :::9443->9443/tcp
+cli|Up 3 hours|
+peer0.org2.example.com|Up 2 hours|0.0.0.0:9051->9051/tcp, :::9051->9051/tcp, 7051/tcp, 0.0.0.0:9445->9445/tcp, :::9445->9445/tcp
+peer0.org1.example.com|Up 2 hours|0.0.0.0:7051->7051/tcp, :::7051->7051/tcp, 0.0.0.0:9444->9444/tcp, :::9444->9444/tcp
+CHANNEL
+[34m2026-11-07 04:31:06.997 UTC 0001 INFO[0m [channelCmd] [34;1mInitCmdFactory[0m -> Endorser and orderer connections initialized
+Blockchain info: {"height":9,"currentBlockHash":"sfGbP79g96kPuq0tXQvv9f/A6Ay+brncfZ6JhmJ1M+s=","previousBlockHash":"wUxYQlMIacw0SJWa3tt27GTqySWK79fMHfSffXZ6nEI="}
+CHAINCODE
+Committed chaincode definition for chaincode 'tracecc' on channel 'tracechannel':
+Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Approvals: [Org1MSP: true, Org2MSP: true]
+EXPLORER
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:30:36.035] [INFO] Platform - [39mgetClient (id:test-network)
+[32m[2026-11-07T04:30:36.036] [INFO] FabricGateway - [39mSending discovery request...
+[32m[2026-11-07T04:30:36.040] [INFO] FabricGateway - [39mSucceeded to send discovery request
+[32m[2026-11-07T04:30:36.040] [INFO] FabricClient - [39mDiscovered Org1MSP [
+  {
+    mspid: 'Org1MSP',
+    endpoint: 'peer0.org1.example.com:7051',
+    name: 'peer0.org1.example.com:7051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]
+[32m[2026-11-07T04:30:36.041] [INFO] FabricClient - [39mDiscovered Org2MSP [
+  {
+    mspid: 'Org2MSP',
+    endpoint: 'peer0.org2.example.com:9051',
+    name: 'peer0.org2.example.com:9051',
+    ledgerHeight: Long { low: 9, high: 0, unsigned: true },
+    chaincodes: [ [Object], [Object] ]
+  }
+]

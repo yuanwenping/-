@@ -1,0 +1,16 @@
+orderer.example.com
+peer0.supplier.example.com
+peer0.processor.example.com
+peer0.logistics.example.com
+peer0.retailer.example.com
+trace4-cli
+dev-peer0.retailer.example.com-tracecc_1.0-54e90f41b82850dd7a5cb205bfbb29172a0b259a9bdebe4ca80164d29e4672bf|Up 12 hours|
+dev-peer0.logistics.example.com-tracecc_1.0-54e90f41b82850dd7a5cb205bfbb29172a0b259a9bdebe4ca80164d29e4672bf|Up 12 hours|
+dev-peer0.processor.example.com-tracecc_1.0-54e90f41b82850dd7a5cb205bfbb29172a0b259a9bdebe4ca80164d29e4672bf|Up 12 hours|
+dev-peer0.supplier.example.com-tracecc_1.0-54e90f41b82850dd7a5cb205bfbb29172a0b259a9bdebe4ca80164d29e4672bf|Up 12 hours|
+orderer.example.com|Up 12 hours|0.0.0.0:7050->7050/tcp, :::7050->7050/tcp
+trace4-cli|Up 12 hours|
+peer0.logistics.example.com|Up 12 hours|7051/tcp, 0.0.0.0:9051->9051/tcp, :::9051->9051/tcp
+peer0.retailer.example.com|Up 12 hours|7051/tcp, 0.0.0.0:10051->10051/tcp, :::10051->10051/tcp
+peer0.processor.example.com|Up 12 hours|7051/tcp, 0.0.0.0:8051->8051/tcp, :::8051->8051/tcp
+peer0.supplier.example.com|Up 12 hours|0.0.0.0:7051->7051/tcp, :::7051->7051/tcp
